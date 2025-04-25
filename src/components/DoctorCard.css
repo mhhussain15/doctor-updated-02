@@ -1,0 +1,147 @@
+.doctor-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.doctor-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.doctor-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.doctor-info {
+  flex-grow: 1;
+}
+
+.doctor-info h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.doctor-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.doctor-consult-type {
+  margin-top: 10px;
+}
+
+.video-consult {
+  background-color: #e6f7ff;
+  color: #0066cc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.in-clinic {
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.doctor-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.doctor-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.doctor-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.doctor-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #eee;
+}
+
+.doctor-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-info h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 18px;
+}
+
+.doctor-info p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.doctor-consult-type {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.video-consult {
+  background-color: #e6f7ff;
+  color: #0066cc;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.in-clinic {
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.book-button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #14bef0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+.book-button:hover {
+  background-color: #0ea5d3;
+}
+
